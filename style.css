@@ -1,0 +1,56 @@
+body {
+    background-image: url("netflix.jpg");
+  }
+
+.contenedorPrincipal{
+    width: 380px;
+    height: 380px;
+    background-color: rgba(10, 10, 10, 0.929);
+    top: 100px;
+    right: 550px;
+    position: fixed;
+}
+
+.iniciaSesion{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 30px;
+    margin-left: 65px;
+}
+
+.iniciaSesion input[type="text"],
+.iniciaSesion input[type="password"]{
+    width: 250px;
+    height: 45px;
+    color: rgba(167, 171, 171, 0.518);
+    background-color: rgba(52, 51, 51, 0.642);
+    border: none;
+}
+
+.boton button{
+    background-color: red;
+    width: 252px;
+    height: 45px;
+    border: none;
+    text-align: center;
+    color: white;
+    padding: 0%;
+}
+
+.logotipo img{
+    width: 200px;
+    height: 100px;
+    margin-left: 2px;
+}
+
+.checkbox1{
+    font-size: 13px;
+}
+
+.label{
+    font-size: 13px;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: -18px;
+}
